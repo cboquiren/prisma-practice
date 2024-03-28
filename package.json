@@ -4,7 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "seed": "ts-node seed.ts"
+    "seed": "ts-node seed.ts",
+    "check-types": "tsc --noEmit",
+    "test-all": "vitest --run",
+    "test-1": "vitest --run problems/p1.test.ts",
+    "test-2": "vitest --run problems/p2.test.ts",
+    "test-3": "vitest --run problems/p3.test.ts",
+    "test-4": "vitest --run problems/p4.test.ts",
+    "test-5": "vitest --run problems/p5.test.ts",
+    "test-6": "vitest --run problems/p6.test.ts",
+    "test-7": "vitest --run problems/p7.test.ts",
+    "test-8": "vitest --run problems/p8.test.ts",
+    "test-9": "vitest --run problems/p9.test.ts",
+    "test-10": "vitest --run problems/p10.test.ts",
+    "test-11": "vitest --run problems/p11.test.ts"
   },
   "keywords": [],
   "author": "",
